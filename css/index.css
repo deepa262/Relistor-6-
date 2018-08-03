@@ -1,0 +1,144 @@
+@media screen and (max-height:1788px) {
+body
+
+{ margin-top: -132px; }
+
+#overall_mask
+
+{ margin-top: -132px; }
+
+}
+body{
+  /* Set position to absolute for staging links, fixed for final launch */
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+#overall_mask{
+  position: absolute;
+  height: 1788px;
+  width: 1080px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 4;
+}
+
+#mainBanner{
+  position: absolute;
+  z-index: 1;
+  overflow-x: hidden;
+    width: 1080px;
+    height: 1120px;
+}
+#bottomBar{
+  position: absolute;
+  z-index: 6;
+  overflow-x: hidden;
+top:974px;
+    width: 1080px;   
+}
+ #text1{
+  position: absolute;
+  opacity: 1;
+  z-index: 2;
+  left: 150px;
+  top: 241px;
+ width: 730px;
+height: 600px;
+}
+
+#text2{
+  position: absolute;
+  opacity: 1;
+  z-index: 2;
+ left: 75px;
+  top: 220px;
+width: 920px;
+height: 690px;
+}
+
+#text3{
+  position: absolute;
+  opacity: 1;
+  z-index: 2;
+left: 50px;
+  top: 230px;
+  width: 978px;
+height: 700px;
+}
+#midbanner{
+      position: absolute;
+      overflow-x: hidden;
+      top: 1140px; 
+      width: 1080px;
+      height: 80px;
+      z-index: 4; 
+      }
+
+ #pi{
+  position: absolute;
+  z-index: 6;
+  left: 56px;
+  width: 474px;
+  height: 70px;
+     top: 1145px;   
+}
+#ppi{
+  position: absolute;
+  z-index: 6;
+  top: 1145px;
+  left: 565px;
+  width: 474px;
+  height: 70px;
+}
+
+/* Start-of-the-ISI */
+
+#isi_image{
+  position: absolute;
+  width: 99%;
+  padding-top: 20px;
+    padding-left: 5px;
+}
+
+#isi{
+  position: absolute;
+  background-color: transparent;
+  z-index: 2;
+  top: 1230px;
+  left: 0px;
+  width: 1080px;
+  height: 488px;
+  font-size: 11px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Arial-Narrow";
+}
+
+#isi::-webkit-scrollbar {
+  width: 30px;
+  margin-top: 10px
+}
+
+#isi::-webkit-scrollbar-track {
+  border: 1px solid #d7d7d7;
+  border-radius: 7px;
+}
+
+#isi::-webkit-scrollbar-thumb {
+  height: 75px;
+  background-color: #d7d7d7;
+  /*background-image: url(../img/thumb.png);*/
+  background-position: top;
+  background-repeat: no-repeat;
+  border: 3px solid transparent;
+/*  border-right: 3px solid transparent;  
+*/  border-radius: 7px;
+  background-clip: content-box;
+}
+
+/* End-of-the-ISI */
+
+ 
